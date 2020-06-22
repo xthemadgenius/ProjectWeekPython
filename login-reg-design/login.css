@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #000000;
+}
+
+.background{
+    background: url('https://mewallpaper.com/thumbnail/games/9272-razer-colorful-background-free-wallpaper-hq.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
