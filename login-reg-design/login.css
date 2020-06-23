@@ -13,7 +13,13 @@ body{
 }
 
 .background{
-    background: url('https://mewallpaper.com/thumbnail/games/9272-razer-colorful-background-free-wallpaper-hq.jpg') no-repeat;
+    background: url('https://i.pinimg.com/originals/6e/58/c2/6e58c26ef08db759f7e1cb3faca5f7a8.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.background2{
+    background: url('https://wallpapercave.com/wp/wp2611061.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -22,6 +28,7 @@ body{
 .text,
 .box{
     margin-top: 45vh;
+    flex: 1;
 }
 
 .text{
@@ -29,9 +36,13 @@ body{
     font-weight: 300px;
 }
 .box{
-    margin-left: 25%;
+    margin-left: 30%;
 }
-
+.box2{
+    margin-top: 20vh;
+    flex: 1;
+    margin-left: 30%;
+}
 .text h1{
     font-size: 70px;
     color: #ffffff;
@@ -68,6 +79,19 @@ input{
 }
 
 .email,
+.name,
+.username,
 .password{
     border-bottom: 1px solid white;
+}
+
+input[type=submit]{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
 }
