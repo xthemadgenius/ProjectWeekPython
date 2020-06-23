@@ -28,6 +28,7 @@ hr{
 [type=radio] + img {
     cursor: pointer;
     filter: grayscale(100%);
+    transition: .5s;
 }
   /* CHECKED STYLES */
 [type=radio] + img:hover {
@@ -50,9 +51,15 @@ img{
 }
 button{
     margin-top: 40px;
+    font-weight: 600;
     width: 200px;
     background-color: rgb(122, 21, 216);
     border: none;
     border-radius: 20px;
     height: 40px;
+    transition: 1s;
+}
+button:hover{
+    background-color: gainsboro;
+    color: rgb(122, 21, 216);
 }
