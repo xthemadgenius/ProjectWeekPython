@@ -89,7 +89,8 @@ button:hover{
 
 .user-stats input {
     float: right;
-	background-color: #eee;
+    background-color: #242424;
+    color: white;
     border: none;
 	padding: 12px 15px;
     margin: 8px 0;
@@ -110,6 +111,12 @@ button:hover{
     width: 200px;
 }
 /* weapons box end */
+.gear{
+    border:1px solid gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
 
 .gear [type=radio] { 
     position: absolute;
@@ -152,7 +159,6 @@ button:hover{
 /* left box end*/
 /* right box start*/
 .profile {
-    background-color: #4e4343;
     float: right;
     height: 800px;
     width: 50%;
@@ -161,8 +167,11 @@ button:hover{
     text-align: center;
 }
 .user-img img{
+    border-radius: 50%;
+    margin-top: 20px;
     height: 500px;
     width: 250px;
+    background-color: #242424;
 }
 .user-img h1,
 .user-img p,
@@ -176,4 +185,40 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.bio{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bio textarea{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 95%;
+}
+.btns{
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.play{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 9px 25px;
+    background-color: rgb(135, 28, 211, 1);
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.play:hover{
+    background-color: white;
+    color: rgb(135, 28, 211, 1);
+}
+
+textarea{
+    background-color: #242424;
+    color: white;
 }
