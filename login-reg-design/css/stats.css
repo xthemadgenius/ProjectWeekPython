@@ -202,21 +202,6 @@ button:hover{
     margin-left: 30px;
     padding-bottom: 20px;
 }
-.play{
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 9px 25px;
-    background-color: rgb(135, 28, 211, 1);
-    font-weight: 600;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-.play:hover{
-    background-color: white;
-    color: rgb(135, 28, 211, 1);
-}
 
 textarea{
     background-color: #242424;
