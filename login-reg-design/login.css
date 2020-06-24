@@ -12,12 +12,6 @@ body{
     background: #000000;
 }
 
-/* .background{
-    background: url('https://i.pinimg.com/originals/6e/58/c2/6e58c26ef08db759f7e1cb3faca5f7a8.jpg') no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-} */
 .background{
     background: url('https://wallpapercave.com/wp/wp2611061.jpg') no-repeat;
     background-size: cover;
