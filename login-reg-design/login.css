@@ -12,13 +12,13 @@ body{
     background: #000000;
 }
 
-.background{
+/* .background{
     background: url('https://i.pinimg.com/originals/6e/58/c2/6e58c26ef08db759f7e1cb3faca5f7a8.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
-}
-.background2{
+} */
+.background{
     background: url('https://wallpapercave.com/wp/wp2611061.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
@@ -26,8 +26,9 @@ body{
 }
 /* tacos are good */
 .text,
-.box{
-    margin-top: 45vh;
+.box,
+.box2{
+    margin-top: 33vh;
     flex: 1;
 }
 
@@ -36,17 +37,20 @@ body{
     font-weight: 300px;
 }
 .box{
-    margin-left: 30%;
+    margin-left: 10%;
 }
 .box2{
-    margin-top: 20vh;
+    margin-top: 15vh;
     flex: 1;
-    margin-left: 30%;
+    margin-left: 15%;
 }
 .text h1{
     font-size: 70px;
     color: #ffffff;
     font-weight: 500;
+}
+h1{
+    color: white;
 }
 
 .text p{
