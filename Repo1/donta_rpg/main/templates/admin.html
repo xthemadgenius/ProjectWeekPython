@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Game Component</title>
+</head>
+<body>
+    <h1>Congratulations Chosen One, {{user.first_name}}. You are now blessed with the power to Create a New Game Component!</h1>
+    <a href="/logout">Logout</a>
+    <form action="/create/character" method="POST">
+        {% csrf_token %}
+        <h2>Create a Character</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="ability">Ability:</label>
+        <input type="text" name="ability" id="ability"><br>
+        <label for="attack">Attack:</label>
+        <input type="number" name="attack" id="attack"><br>
+        <label for="health">Health:</label>
+        <input type="number" name="health" id="health"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/create/item" method="POST">
+        {% csrf_token %}
+        <h2>Create an Item</h2>
+        <label for="item_name">Title:</label>
+        <input type="text" name="item_name" id="item_name"><br>
+        <label for="item_effect">Item Effect on Character Stats:</label>
+        <input type="text" name="item_effect" id="item_effect"><br>
+        <label for="special_ability">Special Ability:</label>
+        <input type="text" name="special_ability" id="special_ability"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/create/obstacle" method="POST">
+        {% csrf_token %}
+        <h2>Create an Obstacle</h2>
+        <label for="obstacle_name">Title:</label>
+        <input type="text" name="obstacle_name" id="obstacle_name"><br>
+        <label for="health">Health:</label>
+        <input type="text" name="health" id="health"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="/character">Return to Select Character</a>
+</body>
+</html>
